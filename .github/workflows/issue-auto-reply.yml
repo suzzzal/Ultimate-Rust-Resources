@@ -1,4 +1,4 @@
-# File: .github/workflows/issue-auto-reply.yml
+
 name: Issue Auto Reply
 
 on:
