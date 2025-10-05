@@ -11,8 +11,8 @@ permissions:
 
 jobs:
   comment:
-    # run only for real issues (not PRs)
-    if: ${{ github.event.issue.pull_request == null }}
+  
+    if: ${{ github.event.issue.pull_request == null }} #to ignore pr
     runs-on: ubuntu-latest
     steps:
       - name: Post welcome comment
