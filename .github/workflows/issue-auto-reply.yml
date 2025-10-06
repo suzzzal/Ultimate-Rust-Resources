@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   comment:
-  
     if: ${{ github.event.issue.pull_request == null }} #to ignore pr
     runs-on: ubuntu-latest
     steps:
