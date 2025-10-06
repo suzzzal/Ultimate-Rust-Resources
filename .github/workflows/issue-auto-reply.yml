@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   comment:
-    if: ${{ github.event.issue.pull_request == null }} #to ignore pr
+    if: ${{ github.event.issue.pull_request == null }} # To ignore PR
     runs-on: ubuntu-latest
     steps:
       - name: Post welcome comment
