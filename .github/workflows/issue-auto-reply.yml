@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   post-welcome-comment:
-    if: ${{ github.event.issue.pull_request == null }} # ignore PRs
+    if: ${{ github.event.issue.pull_request == null }}
     runs-on: ubuntu-latest
     steps:
       - name: Add welcome comment
